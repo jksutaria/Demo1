@@ -9,7 +9,7 @@
             string strExt = "";
             string name = "";
 
-            if (file != null)
+            if (file != null || file != "")
             {
                 name = Path.GetFileName(file.FileName);
                 strExt = Path.GetExtension(name);
